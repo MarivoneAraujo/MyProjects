@@ -6,6 +6,6 @@ I started studing Web development in 2021 and I want to improve my skills with y
 
 <hr />
 
-# Meu Projetos
+# Meus Projetos
 
 Reúno neste repositório os sitemas que produzi para desmonstrar minhas habilidades como desenvolvedora web.
