@@ -11,6 +11,8 @@ height: 100vh;
 /* background-color: green; */
 display: flex;
 flex-direction: column;
+
+font-family: 'Poppins', sans-serif;
 `
 
 class App extends React.Component {
@@ -46,39 +48,3 @@ class App extends React.Component {
 export default App;
 
 
-
-
-// import React from "React";
-// import styled from "styled-components";
-// // import Header from './Components/Header'
-// // import Main from "./Components/Main";
-
-
-// const MainGrid = styled.div`
-// /* border: 3px solid red; */
-// display: grid;
-// grid-template-rows: 1fr 1fr;
-// `
-
-// class App extends React.Component{
-
-//   state ={
-
-//   }
-
-// render (){
-
-//   return (
-
-//     <MainGrid>
-
-//       <Header />
-//       {/* <Main /> */}
-      
-//     </MainGrid>
-//   )
-
-// }
-// }
-  
-// export default App;

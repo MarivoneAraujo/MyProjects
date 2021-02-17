@@ -9,14 +9,22 @@ height: 500px;
 display: flex;
 flex-direction: column;
 align-items: center;
+margin: 90px;
+font-size: 40px;
 `
+const Input = styled.input`
+width: 350px;
+margin: 30px;
+`
+
 const PlaylistCreationForm = styled.form`
 height: 100px;
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: space-around;
-` 
+`
+
+
 
 class PlaylistCreationPage extends React.Component {
 
@@ -52,17 +60,22 @@ class PlaylistCreationPage extends React.Component {
     return(
       <PlaylistCreationFormContainer>
 
-        <h1>Cadastrar Nova Playlist</h1>
+        {/* <h1>Cadastrar Nova Playlist</h1> */}
   
         <PlaylistCreationForm onSubmit={this.createPlaylist}>
   
-          <label>Nova playlist</label>
-          <input placeholder="Nome da Playlist"
+          <label>Cadastrar Nova Playlist</label>
+          <Input placeholder="Nome da Playlist"
           type="text"
           value = {this.state.inputNameValue}
           onChange = {this.changeInputNameValue}
           />
-          <button type = "submit">Cadastrar Playlist</button>
+          
+          <button 
+          
+          src='https://img.flaticon.com/icons/png/512/48/48742.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF'
+
+          type = "submit">Go!</button>
   
         </PlaylistCreationForm>
   
