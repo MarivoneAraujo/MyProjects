@@ -8,4 +8,4 @@ I started studing Web development in 2021 and I want to improve my skills with y
 
 # Meu Projetos
 
-Reúno neste repositório os sitemas que produzi como forma de desmonstrar minhas habilidades como desenvolvedora web.
+Reúno neste repositório os sitemas que produzi para desmonstrar minhas habilidades como desenvolvedora web.
