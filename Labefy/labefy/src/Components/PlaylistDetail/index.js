@@ -24,6 +24,17 @@ div{
 }
 `
 
+
+const ButtonReturn = styled.img`
+width: 30px;
+height: 30px;
+:hover{
+  cursor: pointer;
+ 
+}
+`
+
+
 class PlaylistDetail extends React.Component{
 
     state = {
@@ -137,13 +148,17 @@ class PlaylistDetail extends React.Component{
                 />
                 </div>
 
-                <button type= "submit">Adicionar Música</button>
+                <button type= "submit">Add Música</button>
                 
                 </TrackCreationForm>
 
                 {tracks}
         
-                <button onClick={() => this.props.changePage("playlists", "")}>Voltar para playlists</button>
+                <ButtonReturn 
+                
+                src="https://www.svgrepo.com/show/54336/return-button.svg"
+                
+                onClick={() => this.props.changePage("playlists", "")} />
         
             </PlaylistDetailContainer>
           )

@@ -3,8 +3,9 @@ import React from "react";
 import styled from "styled-components";
 
 const TrackCardContainer = styled.div`
-  margin: 20px;
-  margin-bottom: 40px;
+  /* border: 1px solid black; */
+  margin: 10px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,8 +26,11 @@ const ArtistContainer = styled.p`
 margin-right: 10px;
 `
 
-const DeleteButton = styled.p`
-color: red;
+const DeleteButton = styled.img`
+
+width: 20px;
+height: 20px;
+
 `
 
 const TrackCard = (props) =>{
@@ -42,9 +46,11 @@ const TrackCard = (props) =>{
 
                 <DeleteButton
                 
+                src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf_y_jUG_xXygEFXpZEOG1jzfsAOcIR0oyEw&usqp=CAU'
+
                   onClick={() => props.removeTrackFromPlaylist(props.trackId)}
 
-                >X</DeleteButton>
+                />
 
             </div>
 

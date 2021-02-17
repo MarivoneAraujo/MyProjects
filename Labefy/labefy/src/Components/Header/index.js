@@ -8,6 +8,14 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 border-bottom-style: solid;
+margin: 10px;
+`
+
+const Titulo = styled.h1`
+
+font-size: 100px;
+text-shadow: 1px 1px 1px black;
+
 `
 
 const ButtonsContainer = styled.div`
@@ -16,20 +24,28 @@ display: flex;
 justify-content: space-between;
 `
 
+const Button = styled.button`
+
+background-color: white;
+color: black;
+
+`
+
+
 const Header = (props) =>{
   return(
     <HeaderContainer>
 
-      <h1>Labefy</h1>
+      <Titulo>Labefy</Titulo>
 
       <ButtonsContainer>
-        <button 
+        <Button 
         onClick = {() => props.changePage("playListCreationPage")}
-        >Cadastrar Playlist</button>
+        >Cadastrar Playlist</Button>
         
-        <button
+        <Button
         onClick = {() => props.changePage("playlistManagerPage")}
-        >Gerenciar playlists</button>
+        >Gerenciar playlists</Button>
 
       </ButtonsContainer>
 
