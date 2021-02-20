@@ -6,10 +6,6 @@
 
 ### 🔗 Link do Surge: http://labored-knee.surge.sh/
 
-<h4 align='center'>
-👉 Status: Em construção... 
-</h4>
-
 <br />
 
 ### ✨ Funcionamento:
