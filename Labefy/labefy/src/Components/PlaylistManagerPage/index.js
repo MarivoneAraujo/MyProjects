@@ -1,12 +1,7 @@
 
 import React from "react";
-import styled from "styled-components";
 import PlaylistDetail from "../PlaylistDetail";
 import Playlists from "../PLaylists";
-
-const PlaylistManagerContainer = styled.div`
-
-`
 
 
 class PlaylistManagerPage extends React.Component{
@@ -25,8 +20,6 @@ class PlaylistManagerPage extends React.Component{
 
 
     render() {
-
-        // console.log(this.state.playlistId)
 
         const renderCurrentPage = () =>{
             if (this.state.currentPage === "playlists"){
@@ -47,11 +40,11 @@ class PlaylistManagerPage extends React.Component{
 
         return(
 
-            <PlaylistManagerContainer>
+            <>
         
                 {renderCurrentPage()}
         
-            </PlaylistManagerContainer>
+            </>
           )
     }
 
