@@ -14,7 +14,7 @@ margin: 10px;
 const Titulo = styled.h1`
 
 font-size: 100px;
-text-shadow: 1px 1px 1px black;
+text-shadow: 2px 2px 2px white;
 
 `
 
@@ -25,10 +25,16 @@ justify-content: space-between;
 `
 
 const Button = styled.button`
-
-background-color: white;
-color: black;
-
+background-color: #43008D;
+text-shadow: 2px 2px 2px black;
+box-shadow: 1px 1px 1px black;
+color: white;
+padding: 6px 8px;
+border: none;
+:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
 `
 
 
@@ -41,11 +47,11 @@ const Header = (props) =>{
       <ButtonsContainer>
         <Button 
         onClick = {() => props.changePage("playListCreationPage")}
-        >Cadastrar Playlist</Button>
+        >Criar nova Playlist</Button>
         
         <Button
         onClick = {() => props.changePage("playlistManagerPage")}
-        >Gerenciar playlists</Button>
+        >Ver playlists</Button>
 
       </ButtonsContainer>
 

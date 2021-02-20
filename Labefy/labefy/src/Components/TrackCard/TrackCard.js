@@ -3,7 +3,6 @@ import React from "react";
 import styled from "styled-components";
 
 const TrackCardContainer = styled.div`
-  /* border: 1px solid black; */
   margin: 10px;
   margin-bottom: 10px;
   display: flex;
@@ -17,19 +16,37 @@ const TrackCardContainer = styled.div`
 
 `
 
-
 const TrackContainer = styled.h4`
 margin: 10px;
+margin-left: 20px;
+margin-right: 20px;
+font-size: 20px;
+padding: 3px 10px;
+background-color: #43008D;
+color: white;
+box-shadow: 2px 2px 1px black;
+text-shadow: 2px 2px 1px black;
 `
 
 const ArtistContainer = styled.p`
 margin-right: 10px;
+margin-left: 20px;
+margin-right: 20px;
+font-size: 16px;
+padding: 3px 10px;
+background-color: black;
+color: white;
+box-shadow: 2px 2px 1px black;
+text-shadow: 2px 2px 1px black;
 `
 
 const DeleteButton = styled.img`
-
 width: 20px;
 height: 20px;
+`
+const Audio = styled.audio`
+width: 500px;
+height: 30px;
 
 `
 
@@ -46,7 +63,7 @@ const TrackCard = (props) =>{
 
                 <DeleteButton
                 
-                src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf_y_jUG_xXygEFXpZEOG1jzfsAOcIR0oyEw&usqp=CAU'
+                  src='https://icons-for-free.com/iconfiles/png/512/delete+remove+trash+icon-1320086060903288495.png'
 
                   onClick={() => props.removeTrackFromPlaylist(props.trackId)}
 
@@ -54,9 +71,9 @@ const TrackCard = (props) =>{
 
             </div>
 
-            <audio controls="controls">
+            <Audio controls="controls">
                 <source src={props.url} type="audio/ogg"/>
-            </audio>
+            </Audio>
 
     </TrackCardContainer>
   )
