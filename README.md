@@ -2,7 +2,7 @@
 
 Hello! This is my repo. Be welcome to visit, comment and test anything.
 
-I started studing Web development in 2021 and I want to improve my skills with your contributions. :)
+I started studing Web development in nov 2020 and I want to improve my skills with your contributions. :)
 
 <hr />
 
