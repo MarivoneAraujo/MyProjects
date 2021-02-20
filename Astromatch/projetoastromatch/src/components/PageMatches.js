@@ -1,70 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import styled from 'styled-components'
 import GroupIcon from '@material-ui/icons/GroupOutlined';
-
 import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
-
-const MainConteiner = styled.div`
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-
-`
-const Column1 = styled.div`
-background-color: #FFF3F5;
-`
-
-const Column3 = styled.div`
-background-color: #FFF3F5;
-`
-
-const LogoBack = styled.img`
-width: 50%;
-margin-top: 10px;
-`
-const Icon = styled.div`
-margin-top: 9px;
-margin-left: 20px;
-position: relative;
-:hover{
-  cursor: pointer;
-  left: 2px;
-  color: #e6618d;
-  
-}
-`
-const CentralConteiner = styled.div`
-height: 100vh;
-display: grid;
-grid-template-rows: 1fr 9fr;
-border-right: 1px solid lightgray;
-border-left: 1px solid lightgray;
-`
-const IMG = styled.img`
-width: 50px;
-height: 50px;
-padding: 8px;
-margin-left: 10px;
-margin-top: 10px;
-border-radius: 100%;
-border: 1px solid gray;
-`
-
-const Header =styled.div`
-background-color: white;
-display: grid;
-grid-template-columns: 4fr 1fr;
-border-bottom: 1px dotted gray;
-`
-const CleanButton = styled.div`
-margin-top: 200px;
-margin-left: 140px;
-`
+import { MainConteiner, Top, Column1PageMatches,  Column3PageMatches,  LogoBack, IconMatches, CentralConteiner, IMG, CleanButton} from "../components/styled/styledProject";
 
 function Matched(props) {
 
@@ -112,15 +55,16 @@ function Matched(props) {
   return (
   
     <MainConteiner>
-    <Column1></Column1>
+    <Column1PageMatches></Column1PageMatches>
     
     <CentralConteiner>
 
-    <Header>
+    <Top>
       <LogoBack src="https://i.imgur.com/VtPsdeO.jpg" />
       
-      <Icon><GroupIcon style={{ fontSize:40}} onClick={props.changeToMatches}/></Icon>
-    </Header>
+      <IconMatches><GroupIcon style={{ fontSize:40}} onClick={props.changeToMatches}/></IconMatches>
+
+    </Top>
     
     <div>
 
@@ -137,7 +81,7 @@ function Matched(props) {
     
     </CentralConteiner>
 
-    <Column3>
+    <Column3PageMatches>
     
     <CleanButton><Button variant="outlined" color="primary" onClick={handleClickOpen}>
         Limpar matches
@@ -166,7 +110,7 @@ function Matched(props) {
     
     
     
-    </Column3>   
+    </Column3PageMatches>   
 
     </MainConteiner>
 )
