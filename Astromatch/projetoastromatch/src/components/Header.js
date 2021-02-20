@@ -1,13 +1,10 @@
 import React from 'react'
-// import styled from 'styled-components'
 
 function Topper(props) {
   return (
     
-    <div>Logo
-        
+    <div>        
     <button onClick={props.setScreen}>Ver Matches</button>
-
     </div>
     
 )
