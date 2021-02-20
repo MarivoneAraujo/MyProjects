@@ -4,10 +4,6 @@
 - usuário: astrodev@gmail.com
 - senha: 123456
 
-Acesso também:
-login: marivone@gmail.com.br
-senha: 666666
-
 ### 🔗 Link do Surge: http://labored-knee.surge.sh/
 
 <h4 align='center'>
