@@ -8,15 +8,14 @@ const PlaylistCardContainer = styled.div`
   
   display: flex;
   align-items: center;
-  /* border: 1px solid black; */
   margin-bottom: -30px;
   
 `
 
 const OpenButton = styled.img`
-
-width: 40px;
-height: 40px;
+width: 35px;
+height: 35px;
+margin-bottom: 9px;
 :hover{
   cursor: pointer; 
 }
@@ -26,16 +25,20 @@ const NameContainer = styled.p`
 margin-left: 20px;
 margin-right: 20px;
 font-size: 30px;
+padding: 3px 10px;
+background-color: #43008D;
+color: white;
+box-shadow: 2px 2px 1px black;
+text-shadow: 2px 2px 1px black;
 `
 
 const DeleteButton = styled.img`
-width: 20px;
-height: 20px;
+width: 25px;
+height: 25px;
 
 
 :hover{
-  cursor: pointer;
- 
+  cursor: pointer; 
 }
 
 `
@@ -46,7 +49,7 @@ const PlaylistCard = (props) =>{
             
             <OpenButton
             
-            src='https://www.iconpacks.net/icons/1/free-click-icon-1263-thumb.png'
+            src='https://image.flaticon.com/icons/png/512/1160/1160439.png'
 
             onClick={() => props.changePage("playlistdetail", props.playlistId)} />
 
@@ -54,7 +57,7 @@ const PlaylistCard = (props) =>{
 
             <DeleteButton 
             
-            src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4NTX2DR1UclF2aRRX7guvANvLEzLAk-wmMQ&usqp=CAU'
+            src='https://icons-for-free.com/iconfiles/png/512/delete+remove+trash+icon-1320086060903288495.png'
                         
             onClick={() => props.deletePlaylist(props.playlistId)}/>
 
