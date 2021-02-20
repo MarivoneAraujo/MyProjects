@@ -1,63 +1,8 @@
 import React, {useState} from 'react'
 import useForm from '../hooks/useForm'
-import styled from 'styled-components'
-import axios from 'axios';
-import {useHistory} from "react-router-dom"
-
-const BigGrid = styled.div`
-display: grid;
-grid-template-columns: 1fr 1.5fr;
-`
-const BackToAdm = styled.button`
-font-size: 25px;
-margin: 50px;
-margin-top: 200px;
-width: 150px;
-height: 100px;
-
-font-family: monospace;
-background-color: white;
-:hover{
-  cursor: pointer;
-  color: blue;
-}
-
-
-@media (min-width:500px) and (max-width: 800px) {
-  margin-top: 150px;
-
-}
-
-@media (max-width: 499px) {
-  font-size: 15px;
-  width: 100px;
-  margin: 10px;
-  margin-top: 150px;
-
-}
-
-
-`
-
-const CreateTripForm = styled.div`
-font-family: monospace;
-
-`
-
-const CreateTripButton = styled.button`
-font-family: monospace;
-font-family: monospace;
-background-color: white;
-margin-bottom: 10px;
-margin-left: 27px;
-:hover{
-  cursor: pointer;
-  color: blue;
-  transform: scale(1.2);
-}
-
-
-`
+import axios from 'axios'
+import {useHistory} from 'react-router-dom'
+import { BigGrid, BackToAdm, CreateTripForm, CreateTripButton} from './styled/styledProject.js'
 
 function CreateTripPage() {
 
@@ -96,12 +41,9 @@ function CreateTripPage() {
   };
   
   return (
-    <BigGrid>
+    <BigGrid>      
 
-      
-
-    <div><BackToAdm onClick={goBack}>Voltar para ADM</BackToAdm></div>
-       
+    <div><BackToAdm onClick={goBack}>Voltar para ADM</BackToAdm></div>       
     <CreateTripForm>
       <h1>Crie uma viagem:</h1>
       <label for="name">Nome:</label>      
@@ -119,8 +61,6 @@ function CreateTripPage() {
       title={"O nome deve ter no mínimo 5 caracteres"}    
         
       /></p>
-
-
       <label for="planeta">Planeta:</label>
       <p><select 
       id="planeta"      
@@ -142,7 +82,6 @@ function CreateTripPage() {
         <option>Netuno</option>
         <option>Plutão</option>
       </select></p>
-
       
       <label for="date">Data (dias):</label>
       <p><input 
@@ -179,16 +118,11 @@ function CreateTripPage() {
       onChange={onChange}
       placeholder="Duração"
       required
-     
       /></p>
 
-      <CreateTripButton>Criar Viagem</CreateTripButton>
-    
+      <CreateTripButton>Criar Viagem</CreateTripButton>    
     </form>     
-      
-    </CreateTripForm>
-
-      
+      </CreateTripForm>      
     </BigGrid>
   );
 }
