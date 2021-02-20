@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.planner{
+    border: 50px solid black;
+}
+
+header {
+    border: 10px dotted yellow;
+    height: 35vh;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#tarefa{
+    width: 500px;
+    margin-left: 200px;
+}
+
+.labelToDo{
+    margin: 410px;
+    font-size: 60px;
+    margin-top: 100px;
+    text-shadow: 1px 1px 1px white;
+    
+}
+
+#botaoToDo{
+    margin-left: 900px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2px 4px;
+
+}
+
+#dias-semana{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+
+#botaoToDo{
+ margin-left: 520px;   
+ background-color: white;
+ border: none;
+ padding: 3px 6px;
+ box-shadow: 1px 1px 1px white;
+}
+
+#botaoToDo:hover{
+    color: gray;
+    position: relative;
+    right: 2px;
+}
+
+
+
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    height: 90vh;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+}
+
+.semana {
+    border: 1px solid rgb(53, 53, 53);
+    width: 14%;
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+}
