@@ -1,19 +1,8 @@
 import React from "react";
-import styled from "styled-components";
 import Header from "./Components/Header";
 import PlaylistCreationPage from "./Components/PlaylistCreationPage";
 import PlaylistManagerPage from "./Components/PlaylistManagerPage";
-
-
-const AppContainer = styled.div`
-width: 100vw;
-height: 100vh;
-background-color: orange;
-display: flex;
-flex-direction: column;
-
-font-family: 'Poppins', sans-serif;
-`
+import { AppContainer } from "./Components/Styled/styledProject";
 
 class App extends React.Component {
 

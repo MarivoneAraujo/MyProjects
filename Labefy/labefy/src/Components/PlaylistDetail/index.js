@@ -1,55 +1,9 @@
 
 import axios from "axios";
 import React from "react";
-import styled from "styled-components";
 import { axiosConfig, baseUrl } from "../../constants";
 import TrackCard from "../TrackCard/TrackCard";
-
-const PlaylistDetailContainer = styled.div`
-display: grid;
-grid-template-columns: auto 3fr;
-align-items: center;
-`
-const TrackCreationForm = styled.form`
-text-align: center;
-background-color: black;
-color: white;
-text-shadow: 1px 1px 1px black;
-height: 200px;
-border: 1px solid black;
-margin-left: 40px;
-padding: 10px;
-box-shadow: 1px 1px 6px black; 
-`
-
-const H1 = styled.h1`
-color: white;
-text-shadow: 1px 1px 1px black;
-text-align: center;
-`
-const Button = styled.button`
-background-color: #43008D;
-text-shadow: 2px 2px 2px black;
-box-shadow: 1px 1px 1px black;
-color: white;
-padding: 6px 8px;
-border: none;
-margin: 10px;
-:hover{
-  cursor: pointer;
-  transform: scale(1.2);
-}
-`
-
-const ButtonReturn = styled.img`
-margin-top: 110px;
-margin-left: 750px;
-width: 30px;
-height: 30px;
-:hover{
-  cursor: pointer; 
-}
-`
+import { TrackCreationForm,H1, ButtonDetailPage, ButtonReturn} from "../Styled/styledProject";
 
 class PlaylistDetail extends React.Component{
 
@@ -123,13 +77,13 @@ class PlaylistDetail extends React.Component{
 
         return(
 
-            <PlaylistDetailContainer>
+            <>
 
 
                 <TrackCreationForm onSubmit={this.addTrackToPLaylist}>
                 
                 <div>
-                    <h2>Agora, insira mais uma música:</h2>
+                    <h2>Agora, insira uma música:</h2>
                 <label for="songname">Nome da Música: </label>
                 <input id="songname"
                     placeholder = 'Nome da música'
@@ -161,7 +115,7 @@ class PlaylistDetail extends React.Component{
                 />
                 </div>
 
-                <Button type= "submit">Add Música</Button>
+                <ButtonDetailPage type= "submit">Add Música</ButtonDetailPage>
                 
                 </TrackCreationForm>
 
@@ -180,7 +134,7 @@ class PlaylistDetail extends React.Component{
                 onClick={() => this.props.changePage("playlists", "")} />
                 </div>
         
-            </PlaylistDetailContainer>
+            </>
           )
     }
 
