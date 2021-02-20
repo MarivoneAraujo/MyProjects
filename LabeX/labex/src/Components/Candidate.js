@@ -4,14 +4,10 @@ import React from 'react'
 
 function Candidate (props) {
 
-
-  const approveCandidate = () =>{
-    
+  const approveCandidate = () =>{    
     props.decideCandidate(true, props.candidate.id)
   }
-
-  const rejectCandidate = () =>{
-    
+  const rejectCandidate = () =>{    
     props.decideCandidate(false, props.candidate.id)
   }
 

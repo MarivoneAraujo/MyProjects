@@ -17,9 +17,8 @@ function AdmTripCandits(props) {
         <div><i><strong>Data:</strong> {date}</i></div>  
         <div><i><strong>Descrição:</strong> {description}</i> </div>
         
-        <hr />
-        
-        </div>
+        <hr />        
+    </div>
   )
 }
 

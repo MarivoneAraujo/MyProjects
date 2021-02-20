@@ -1,66 +1,14 @@
 import React, { useState,  useEffect } from 'react'
-import styled from 'styled-components'
 import useForm from '../hooks/useForm'
 import axios from 'axios';
-
 import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
+import { ApplicationForm, InputsForm, SelectTrip, ButtonSend} from './styled/styledProject.js';
 
-
-const ApplicationForm = styled.div` 
-font-family: monospace;
-font-size: 20px;
-padding-top: 10px;
-width: 100%;
-height: 900px;
-background-image: url('https://www.nationalgeographic.com/interactive-assets/nggraphics/ngm-1907-moon-landing-rockets/build-2019-06-13_12-02-54/ngm-assets/img/ngm-1907-moon-landing-rockets_ai2html-desktop-medium.jpg');
-background-repeat: no-repeat;
-background-size:100%;
-color: white;
-
-
-
-@media (min-width:500px) and (max-width: 800px) {
-
-background-image: url('https://i.ytimg.com/vi/NtOwzU5Rpp8/maxresdefault.jpg');
-background-repeat: repeat;
-background-size:100%  
-  
-@media (max-width: 499px) {
-  
-background-image: url('https://i.ytimg.com/vi/NtOwzU5Rpp8/maxresdefault.jpg');
-background-repeat: repeat;
-background-size:100% 
-
-}
-
-`
-const InputsForm = styled.div`
-padding-top: 5px;
-padding-left: 55px;
-background-color: white;
-color: black;
-position: relative;
-left: 30px;
-border-radius: 10px;
-opacity: 0.9;
-width: 350px;
-box-shadow: 0px 0.5px 15px gray;
-`
-const SelectTrip = styled.select`
-width: 310px;
-`
-const ButtonSend = styled.button`
-margin-left: 90px;
-margin-bottom: 10px;
-:hover{
-  cursor: pointer;
-   
-`
 
 function Application() {
   
@@ -101,7 +49,6 @@ function Application() {
     console.log(form)
     clearFields()
     applicationForm()
-    /* alert ("Cadastro realizado com sucesso") */
     } 
 
     const applicationForm = () =>{
@@ -117,7 +64,6 @@ function Application() {
         
     .then((res) =>{
       console.log("sucesso")
-      /* alert ('sucesso') */
     })
     .catch((err) =>{
         console.log(err)
@@ -192,8 +138,6 @@ function Application() {
       pattern={"^.{30,}"}
       title={"O texto deve ter no mínimo 30 caracteres"}
       /></p> 
-
-
         
       <label for="viagem">Escolha a viagem:</label>
       <p><SelectTrip
@@ -215,7 +159,6 @@ function Application() {
       })}
 
       </SelectTrip></p>
-
 
       <label for="country">País que reside:</label>
       <p><select       
