@@ -11,7 +11,7 @@ Projeto de sistema web realizado na semana de 01/02/2021 a 05/02/2021. É uma pl
 
 => The project consists of a space travel catalog. It has an environment for customers and administrators. In the upper right corner it is possible to access the administrator area or log out. Within the customer area, it is possible to list each trip and sign up for the one desired. In the administrator area, it is possible to create new trips, delete and approve or reject application proposals from users.
 
-
+<p>Home Page</p>
 <img src="https://user-images.githubusercontent.com/74380088/108924037-abe2eb00-7618-11eb-820d-10e022f51d81.png" width="90%"></img> 
 <img src="https://user-images.githubusercontent.com/74380088/108924052-b604e980-7618-11eb-97ca-8d43bf14bc2f.png" width="90%"></img> 
 
