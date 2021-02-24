@@ -11,3 +11,6 @@ consulting all registered playlists;
 possibility to delete playlist; 
 complete list of songs in each playlist; 
 possibility to delete songs and audio player included.
+
+### IMAGENS
+<img src="https://user-images.githubusercontent.com/74380088/108925440-5d831b80-761b-11eb-9cf6-2bc7443b26a2.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/74380088/108925467-696edd80-761b-11eb-9836-feac6aeffbe1.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/74380088/108925487-7390dc00-761b-11eb-9141-0be3cc5569e7.png" width="30%"></img> 
