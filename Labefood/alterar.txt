@@ -1,0 +1,27 @@
+O que falta:
+
+3. Títulos dos lanches estão grandes;
+4. Em "adicionar ao carrinho", ao invés de input, pode ser um select;
+ 
+7. Alinhar o botão de voltar no header, ele não está na mesma posição que os inputs
+8. Na página de editar perfil:
+  a) Falta o título "Editar";
+  b) Nome do botão "Salvar" está em caixa alta (e com a palavra "alterações" não deve existir); 
+  c) Tirar a linha de coyrigh:
+9. Implementar a parte final do carrinho, com a soma dos produtos e o popUp de "pedido a caminho".
+10. Colocar função de logout (deslogar) no perfil. (edited) 
+11. não tem logout
+12. quando se entra no app já logado, aparece o login e DEPOIS  renderiza a página de feed.
+13. organizar o tamanho da página de carrinho para que não sobreponha o botão e vice-versa.
+14. o footer não muda de cor ao ser clicado
+15. O confirmar do carrinho não faz nada. deveria zerar e dizer confirmado, além de dar um post na Api.
+16. No meu perfil não aparece o histórico
+17. A página de proteger caso não tenha login não funciona.
+
+
+
+
+
+
+
+
