@@ -14,16 +14,6 @@ I have been studing web development since nov 2020 and I want to improving my sk
 
 Reúno neste repositório os sitemas que produzi para desmonstrar minhas habilidades como desenvolvedora web.
 
-
-# Com HTML e CSS: 
-
-FIRSTPORTFOLIO: projeto realizado dia 20/11/2020 para a Labenu. O objetivo essencial era mostrar as habilidades adquiridas com html e css.
-
-SISTEMALOJA: projeto realizado nos dias 18 e 19/11/2020 para a Labenu. No primeiro dia, o objetivo foi construir um sistema interno de uma loja usando somente HTML. No dia seguinte, aplicamos a estilização com CSS.
-
-# Com DOM:
-PLANNER: projeto realizado dia 08/12/2020 para a Labenu. Atividade de implementação de todo o JS, a manipulação do DOM com objetos, também a estilização.
-
 # Com REACT:
 LABEFOOD: projeto em grupo realizado na semana de 01/03/2021 a 05/03/2021. A ideia era criar um clone simplificado do UberEats em uma aplicação React com o uso de Hooks, por meio de Autenticação, uso de bibliotecas de UI, com múltiplas rotas utilizando React Router e formulários com validação. Link surge: http://small-pizzas.surge.sh/ Membros do grupo: Fernando Loures da Silva, Gabriel Marques Batista, Jéssica Damaceno Barbosa, Juliana Cristina Pedroso, Marivone Vieira Pereira de Araújo e Vivian de Oliveira Costa. Fique responsável pelos formulários, mas este foi realmente um trabalho em grupo e acabamos todos fazendo de tudo um pouco. 
 
@@ -34,3 +24,15 @@ POKÉDEX: originalmente um projeto em grupo feito para a Labenu na semana entre 
 ASTROMATCH:  projeto realizado dia 29/01/2021 para a Labenu. A ideia central deste projeto (APP REACT.js, com componentes funcionais e Hooks), foi realizar uma integração com a API Astromatch, criada pela Labenu, que permite a escolha de candidatos pelo usuário à semelhança de um Tinder. Link surge: http://astromatch-marivone-epps.surge.sh/ 
 
 LABEFY: projeto realizado dia 15/01/2021 para a Labenu, mas refatorado no dia 12/02/2021. A ideia central deste projeto (APP REACT.js, com componentes de classe), foi realizar uma integração com a API Labefy, criada pela Labenu, que permite o gerenciamento básico de playlist de músicas. Link surge: http://labefy-marivone-epps.surge.sh/ 
+
+<br />
+# Com HTML e CSS: 
+
+FIRSTPORTFOLIO: projeto realizado dia 20/11/2020 para a Labenu. O objetivo essencial era mostrar as habilidades adquiridas com html e css.
+
+SISTEMALOJA: projeto realizado nos dias 18 e 19/11/2020 para a Labenu. No primeiro dia, o objetivo foi construir um sistema interno de uma loja usando somente HTML. No dia seguinte, aplicamos a estilização com CSS.
+
+<br />
+
+# Com DOM:
+PLANNER: projeto realizado dia 08/12/2020 para a Labenu. Atividade de implementação de todo o JS, a manipulação do DOM com objetos, também a estilização.
