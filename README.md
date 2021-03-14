@@ -26,6 +26,7 @@ ASTROMATCH:  projeto realizado dia 29/01/2021 para a Labenu. A ideia central des
 LABEFY: projeto realizado dia 15/01/2021 para a Labenu, mas refatorado no dia 12/02/2021. A ideia central deste projeto (APP REACT.js, com componentes de classe), foi realizar uma integração com a API Labefy, criada pela Labenu, que permite o gerenciamento básico de playlist de músicas. Link surge: http://labefy-marivone-epps.surge.sh/ 
 
 <br />
+
 # Com HTML e CSS: 
 
 FIRSTPORTFOLIO: projeto realizado dia 20/11/2020 para a Labenu. O objetivo essencial era mostrar as habilidades adquiridas com html e css.
