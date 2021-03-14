@@ -1,5 +1,10 @@
 # Labefy
 
+
+<h2 align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/future4code/epps-labe-food1"> <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/future4code/epps-labe-food1">
+</h2>
+
 Projeto de sistema web realizado dia 15/01/2021 para a Labenu, mas refatorado no dia 12/02/2021. A ideia central deste projeto (APP REACT.js, com componentes de classe), foi realizar uma integração com a API que permite o gerenciamento básico de playlist de músicas. 
 
 Link surge: http://labefy-marivone-epps.surge.sh/
