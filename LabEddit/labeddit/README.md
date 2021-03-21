@@ -38,7 +38,7 @@ As seguintes tecnologias foram usadas na construção do projeto:
 ![image](https://user-images.githubusercontent.com/74380088/111891464-1bf34f80-89d2-11eb-87ab-e5d765a16adf.png)
 ![image](https://user-images.githubusercontent.com/74380088/111891471-244b8a80-89d2-11eb-8ce3-44b53aafc3de.png)
 ![image](https://user-images.githubusercontent.com/74380088/111891484-32011000-89d2-11eb-8a03-880c65d9970d.png)
-![image](https://user-images.githubusercontent.com/74380088/111891490-3d543b80-89d2-11eb-9d07-4306d54c3f30.png)
-![image](https://user-images.githubusercontent.com/74380088/111891491-41805900-89d2-11eb-8d6e-f247da53d71c.png)
-![image](https://user-images.githubusercontent.com/74380088/111891500-4e04b180-89d2-11eb-8665-4fd41374e3bc.png)
+![image](https://user-images.githubusercontent.com/74380088/111891536-9a4ff180-89d2-11eb-8ebb-2dbf24d8fb51.png)
+![image](https://user-images.githubusercontent.com/74380088/111891548-adfb5800-89d2-11eb-9fdb-d98210f52b6d.png)
+
 <hr />
