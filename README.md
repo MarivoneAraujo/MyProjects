@@ -14,7 +14,7 @@ Reúno neste repositório os sitemas que produzi para desmonstrar minhas habilid
 # Com REACT:
 
 
-LABEDDIT: projeto de sistema web totalmente refeito no dia 20/03/2021. Este projeto pretende ser uma cópia simplificada do Reddit. O Labeddit é uma aplicação React onde se utilizam Hooks e Custom Hooks, Autenticação de páginas, bibliotecas UI, com múltiplas rotas utilizando React Router, consulta a API e formulários com validação. As páginas são renderizadas automaticamente mediante a criação de posts, ou comentários ou curtidas.   Link surge: https://wretched-sort.surge.sh/
+LABEDDIT: projeto de sistema web totalmente refeito no dia 20/03/2021. Este projeto pretende ser uma cópia simplificada do Reddit. O Labeddit é uma aplicação React onde se utilizam Hooks e Custom Hooks, Autenticação de páginas, bibliotecas UI, com múltiplas rotas utilizando React Router, consulta a API e formulários com validação. As páginas são renderizadas automaticamente mediante a criação de posts, ou comentários ou curtidas.   Link surge: https://wretched-sort.surge.sh/ . Responsivo para tablets e iphone 6/7/8/8 plus.  
 
 COOKENU: projeto pessoal realizado dia 13/03/2021. O Cookenu não fez parte de nossos projetos semanais na Labenu, mas de uma aula de revisão onde sua realização não era obrigatória. Decidi criar a aplicação como forma de treinamento. O Cookenu é uma aplicação React onde se utilizam Hooks e Custom Hooks, Autenticação de páginas, bibliotecas de UI, com múltiplas rotas utilizando React Router, consulta a API e formulários com validação. Link surge: https://ludicrous-help.surge.sh/. Responsivo para tablets e iphone 6/7/8.  
 
