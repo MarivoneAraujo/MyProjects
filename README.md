@@ -1,7 +1,7 @@
 # My Projects
 
 
-Hello! This is my repo. Be welcome to visit, comment and test anything.
+Hello! This is my repo as a bootcamp student at Labenu. Be welcome to visit, comment and test anything.
 
 I have been studing web development since nov 2020 and I would like to improve my skills with your contributions. :)
 
@@ -9,7 +9,7 @@ I have been studing web development since nov 2020 and I would like to improve m
 
 # Meus Projetos
 
-Reúno neste repositório os sitemas que produzi para desmonstrar minhas habilidades como desenvolvedora web.
+Reúno neste repositório os melhores sitemas que produzi durante o bootcamp Labenu; aqui desmonstro minhas habilidades como desenvolvedora web.
 
 # Com REACT:
 
