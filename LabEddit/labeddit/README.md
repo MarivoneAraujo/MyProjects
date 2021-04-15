@@ -1,9 +1,5 @@
 # Projeto Labeddit
 
-<h2 align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/future4code/epps-labe-food1"> <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/future4code/epps-labe-food1">
-</h2>
-
 <h4 align='center'>
 👉 Status: Concluído ✔️👏
 </h4>
