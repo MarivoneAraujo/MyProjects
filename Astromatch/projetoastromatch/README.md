@@ -1,8 +1,5 @@
 # Projeto Astromatch
 
-<h2 align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/future4code/epps-labe-food1"> <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/future4code/epps-labe-food1">
-</h2>
 Projeto de sistema web realizado dia 29/01/2021 para a Labenu. A ideia central deste projeto (APP REACT.js, com componentes funcionais e Hooks), foi realizar uma integração com a API Astromatch, criada pela Labenu, que permite a escolha de candidatos pelo usuário à semelhança de um Tinder. 
 
 Link surge: http://astromatch-marivone-epps.surge.sh/ 
